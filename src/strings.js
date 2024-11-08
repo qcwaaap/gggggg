@@ -12,18 +12,18 @@
 */
 
 //Ваше решение
-// const concatenateStrings = (str1, str2)=> (str1+str2).trim()
-//         console.log(concatenateStrings('aa', 'bb'))
-//         console.log(concatenateStrings('aa',' '))
-//         console.log(concatenateStrings('',  'bb'))
+const concatenateStrings = (str1, str2)=> (str1+str2).trim()
+ console.log(concatenateStrings('aa', 'bb'))
+ console.log(concatenateStrings('aa',' '))
+ console.log(concatenateStrings('',  'bb'))
 
 //Реализуйте функцию getStringLength, которая принимает строку в качестве аргумента и возвращает ее длину.
 
 //Ваше решение:
-// const getStringLength(text){
-//         return text.split("").length()
-// }
-// console.log(getStringLength(This is another text))
+function getStringLength(text){
+         return text.split("").length
+ }
+ console.log(getStringLength('This is another text'))
 
 
 /*
@@ -37,10 +37,10 @@
 */
 
 //Ваше решение:
-// function getStringFromTemplate(firstName, lastName) {
-//         return `Hello, ${firstName} ${lastName}!`;
-//         }
-//        console.log(getStringFromTemplate('Chuck','Norris'))
+ function getStringFromTemplate(firstName, lastName) {
+         return `Hello, ${firstName} ${lastName}!`;
+         }
+        console.log(getStringFromTemplate('Chuck','Norris'))
 
 /*
 Реализуйте функцию getChar, которая принимает строку и порядковый номер символа в строке 
@@ -52,10 +52,10 @@
 */
 
 //Ваше решение:
-// function getChar(str, num){
-//         return str[num - 1]
-// }
-// console.log(getChar('cat', 3))
+ function getChar(str, num){
+         return str[num - 1]
+ }
+ console.log(getChar('cat', 3))
 /*
 Реализуйте функцию removeFirstOccurrences, которая удаляет первое вхождение подстроки  внутри строки.
 
@@ -65,10 +65,10 @@
 */
 
 //Ваше решение:
-// function removeFirstOccurrences(str, str2){
-//         return str.replace(str2, "")
-// }
-// console.log(removeFirstOccurrences('To be or not to be', 'not'))
+ function removeFirstOccurrences(str, str2){
+         return str.replace(str2, "")
+ }
+ console.log(removeFirstOccurrences('To be or not to be', 'not'))
 
 /* 
 Реализуйте функцию getRectangleString, которая  возвращает строковое представление прямоугольника 
@@ -98,4 +98,4 @@ for(let i = 0; i < q; i += 1){
 }
 console.log(getRectangleString(5, 4))
 
-//export {getRectangleString, concatenateStrings, getStringLength, removeFirstOccurrences, getChar, getStringFromTemplate}var horizCount = 10;
+export {getRectangleString, concatenateStrings, getStringLength, removeFirstOccurrences, getChar, getStringFromTemplate}
